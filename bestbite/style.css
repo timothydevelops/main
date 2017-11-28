@@ -1,0 +1,131 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+.header {
+  padding: 40px;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  float:right;
+  width:340px;
+}
+.nav-pills li a {
+  color: #d8192f;
+  border:1px solid #d8192f;
+  margin-left:10px;
+  text-align:center;
+  width:100px;
+}
+.nav-pills li.active a:hover {
+  background-color: #d8192f;
+}
+.section {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.section h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 30px;
+}
+.banner h3 {
+  margin: 0;
+  padding: 0;
+  color:#fff;
+}
+.section h4 {
+  color:#d8192f;
+  margin: 30px 0 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.section ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg);
+  background-size: cover;
+  color: #FFF;
+  text-align: right;
+}
+.row {
+  margin: 40px;
+  padding: 20px;
+}
+
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px;
+  color: #fff;
+}
+.section .btn {
+    background-color: rgba(216,25,47,.5);
+    border: 0px;
+    margin-top: 24px;
+    color: #fff;
+}
+/*Footer */
+.footer {
+  height:100px;
+  padding: 40px 0px 100px;
+  margin-top: 80px;
+  background-color: #eee;
+  font-size: 14px;
+}
+.footer p {
+  float:left; width:33%;
+}
+.footer a {
+  color: #d8192f;
+}
+.a-center {
+  text-align:center;
+}
+.a-right {
+  text-align:right;
+}
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}
